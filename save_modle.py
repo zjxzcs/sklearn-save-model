@@ -5,7 +5,7 @@ clf=svm.SVC()
 iris=datasets.load_iris()
 X,y=iris.data,iris.target
 clf.fit(X,y)
-#%%
+#%%第二次
 第一种储存方式
 pickle
 #%%
